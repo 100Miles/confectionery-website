@@ -28,9 +28,9 @@
       <div class="banner-content max-length gutter-half push-0 pad-t-2 pad-b-2">
         <h2 class="h2-font-1 push-0 text-center">The Taste of</h2>
         <h2 class="h2-font-2 yotta text-center">TRADITION</h2>
-        <p class="text-center">Our chefs have been handmaking chocolates for generations and you can taste the difference a legacy makes.</p>
+        <p class="text-center bold">Our chefs have been handmaking chocolates for generations and you can taste the difference a legacy makes.</p>
         <div class="btn-wrap text-center">
-          <a class="btn btn-light normal text-center island-half micro" href="#order-form">ORDER A CUSTOM BOX</a>
+          <a class="btn btn-light normal text-center island-half micro" href="#order-form">Place an order</a>
         </div>
       </div>
     </section>
@@ -114,13 +114,36 @@
       </div>
     </section>
     <section id="order-form">
-      <div class="">
+      <div class="wrapper push">
+        <h2 class="push-0 color-brand-dark gutter-1-2 pad-t pad-b">Place an order</h2>
 
+        <form class="grid" method="post">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="name" class="push-1-8">Your name</label>
+            <input id="name" type="text">
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="email" class="push-1-8">E-mail address</label>
+            <input id="email" type="text">
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="type" class="push-1-8">Type of Chocolate</label>
+            <select id="type">
+              <option>Turtle Truffle</option>
+              <option>Danish Delight</option>
+              <option>Magic Morsel</option>
+              <option>Chef's Special</option>
+            </select>
+          </div>
+          <div class="unit xs-1 text-center">
+            <button class="btn mega" type="submit">Send</button>
+          </div>
+        </form>
       </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="pad-t pad-b gutter-half">
+    <small class="pad-t ">© Coco's Chocolatiers 2016</small>
   </footer>
 </body>
 </html>
