@@ -25,7 +25,7 @@ html {
 h1 {
   font-family: 'Sacramento', cursive;
   background-color: #f2f2f2;
-  color: #333333;
+  color: #333;
 }
 
 .btn-wrap {
@@ -34,17 +34,17 @@ h1 {
 }
 
 nav {
-  background-color: #cccccc;
+  background-color: #ccc;
 }
 
 a {
-  color: #333333;
+  color: #333;
   text-decoration: none;
 }
 
 .middle-link {
-  border-left: 1px solid #333333;
-  border-right:  1px solid #333333;
+  border-left: 1px solid #333;
+  border-right:  1px solid #333;
 }
 
 .banner {
@@ -59,6 +59,11 @@ a {
 }
 
 .btn-light {
+}
+
+.contents {
+  background-color: #333;
+  color: #f2f2f2;
 }
 
 @media only screen and (min-width: 25em) {
@@ -90,7 +95,7 @@ a {
   nav {
     float: right;
     background-color: #f2f2f2;
-    color: #333333;
+    color: #333;
   }
 
 }
