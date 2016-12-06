@@ -12,10 +12,10 @@
 </head>
 <body class="">
   <header class="grid grid-middle">
-    <div class="unit xs-1 m-3-4">
+    <div class="unit xs-1 m-1-2">
       <h1 class="gutter-half pad-top-half pad-bottom-half push-0 yotta">Coco's Chocolatiers</h1>
     </div>
-    <nav class="unit xs-1 m-1-4">
+    <nav class="unit xs-1 m-1-2">
       <ul class="grid nav list-group-inline push-0 pad-top-half pad-bottom-half">
         <li class="unit xs-1-3 gutter-half text-center"><a href="#about">About</a></li>
         <li class="unit xs-1-3 middle-link gutter-half text-center"><a href="#contents">Contents</a></li>
@@ -44,27 +44,27 @@
           <div class="grid">
             <div class="unit xs-1-2">
               <div class="embed embed-1by1">
-                <img class="embed-item" src="http://placehold.it/500x500" alt="">
+                <img class="embed-item" src="images/chocolate-01.jpg" alt="">
               </div>
             </div>
             <div class="unit xs-1-2">
               <div class="embed embed-1by1">
-                <img class="embed-item" src="http://placehold.it/500x500" alt="">
+                <img class="embed-item" src="images/chocolate-05.jpg" alt="">
               </div>
             </div>
             <div class="unit unit-xs-hidden l-1-2">
               <div class="embed embed-1by1">
-                <img class="embed-item" src="http://placehold.it/500x500" alt="">
+                <img class="embed-item" src="images/chocolate-06.jpg" alt="">
               </div>
             </div>
             <div class="unit unit-xs-hidden l-1-2">
               <div class="embed embed-1by1">
-                <img class="embed-item" src="http://placehold.it/500x500" alt="">
+                <img class="embed-item" src="images/chocolate-02.jpg" alt="">
               </div>
             </div>
             <div class="unit unit-xs-hidden m-1 unit-l-hidden">
               <div class="embed embed-3by1">
-                <img class="embed-item" src="http://placehold.it/300x100" alt="">
+                <img class="embed-item" src="images/chocolate-03.jpg" alt="">
               </div>
             </div>
           </div>
@@ -116,28 +116,44 @@
     <section id="order-form">
       <div class="wrapper push">
         <h2 class="push-0 color-brand-dark gutter-1-2 pad-t pad-b">Place an order</h2>
-
-        <form class="grid" method="post">
-          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="name" class="push-1-8">Your name</label>
-            <input id="name" type="text">
-          </div>
-          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="email" class="push-1-8">E-mail address</label>
-            <input id="email" type="text">
-          </div>
-          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="type" class="push-1-8">Type of Chocolate</label>
-            <select id="type">
-              <option>Turtle Truffle</option>
-              <option>Danish Delight</option>
-              <option>Magic Morsel</option>
-              <option>Chef's Special</option>
-            </select>
-          </div>
-          <div class="unit xs-1 text-center">
-            <button class="btn mega" type="submit">Send</button>
-          </div>
+        <form class="" method="post">
+          <fieldset>
+            <legend>Your information</legend>
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-half">
+                <label for="name" class="push-1-8">Your name</label>
+                <input id="name" type="text">
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-half">
+                <label for="address" class="push-1-8">Address</label>
+                <textarea id="address" type="text"></textarea>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Your selection</legend>
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
+                <label for="turtle-truffle" class="push-1-8">Turtle Truffle</label>
+                <input min="0" id="turtle-truffle" type="number">
+              </div>
+              <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
+                <label for="turtle-truffle" class="push-1-8">Danish Delight</label>
+                <input min="0" id="turtle-truffle" type="number">
+              </div>
+              <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
+                <label for="turtle-truffle" class="push-1-8">Magic Morsel</label>
+                <input min="0" id="turtle-truffle" type="number">
+              </div>
+              <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
+                <label for="turtle-truffle" class="push-1-8">Chef's Special</label>
+                <input min="0" id="turtle-truffle" type="number">
+              </div>
+              <div class="unit xs-1 text-center">
+                <button class="btn mega" type="submit">Send</button>
+              </div>
+            </div>
+          </fieldset>
         </form>
       </div>
     </section>

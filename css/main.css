@@ -48,9 +48,9 @@ a {
 }
 
 .banner {
-  background-image: linear-gradient(to bottom, transparent, rgba(3, 3, 3, .7), rgba(3, 3, 3, .9)), url("../images/24694681564_e4ec93d8ea_o.jpg");
+  background-image: linear-gradient(to bottom, transparent, rgba(3, 3, 3, .7), rgba(3, 3, 3, .9)), url("../images/chocolate-08.jpg");
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
   width: 100%;
 }
 
