@@ -43,8 +43,8 @@ a {
 }
 
 nav a:hover {
-  color: #333;
-  background-color: #f2f2f2;
+  color: #f2f2f2;
+  background-color: #333;
 }
 
 .middle-link {
