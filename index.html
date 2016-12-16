@@ -25,9 +25,9 @@
     </div>
     <nav class="unit xs-1 m-1-2">
       <ul class="grid nav list-group-inline push-0 pad-top-half pad-bottom-half">
-        <li class="unit xs-1-3 text-center"><a class="island" href="#about">About</a></li>
-        <li class="unit xs-1-3 middle-link text-center"><a class="island" href="#contents">Contents</a></li>
-        <li class="unit xs-1-3 text-center"><a class="island" href="#order-form">Order</a></li>
+        <li class="unit xs-1-3 text-center"><a class="island-half" href="#about">About</a></li>
+        <li class="unit xs-1-3 middle-link text-center"><a class="island-half" href="#contents">Contents</a></li>
+        <li class="unit xs-1-3 text-center"><a class="island-half" href="#order-form">Order</a></li>
       </ul>
     </nav>
   </header>
@@ -130,11 +130,11 @@
             <div class="grid">
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-half">
                 <label for="name" class="push-1-8">Your name</label>
-                <input id="name" name="name" type="text">
+                <input id="name" name="name" type="text" placeholder="Please include first and last name">
               </div>
               <div class="unit xs-1 s-1 m-1-2 l-1-2 push gutter-half">
                 <label for="address" class="push-1-8">Address</label>
-                <textarea id="address"></textarea>
+                <textarea id="address" placeholder="Please include full mailing address"></textarea>
               </div>
             </div>
           </fieldset>
@@ -142,20 +142,20 @@
             <legend>Your selection</legend>
             <div class="grid">
               <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
-                <label for="turtle-truffle" class="push-1-8" placeholder="Input desired amount">Turtle Truffle</label>
-                <input min="0" name="turtle-truffle" id="turtle-truffle" type="number">
+                <label for="turtle-truffle" class="push-1-8" >Turtle Truffle</label>
+                <input min="0" name="turtle-truffle" id="turtle-truffle" type="number" placeholder="Please input desired amount">
               </div>
               <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
-                <label for="danish-delight" class="push-1-8" placeholder="Input desired amount">Danish Delight</label>
-                <input min="0" name="danish-delight" id="danish-delight" type="number">
+                <label for="danish-delight" class="push-1-8">Danish Delight</label>
+                <input min="0" name="danish-delight" id="danish-delight" type="number" placeholder="Please input desired amount">
               </div>
               <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
-                <label for="magic-morsel" class="push-1-8" placeholder="Input desired amount">Magic Morsel</label>
-                <input min="0" name="magic-morsel" id="magic-morsel" type="number">
+                <label for="magic-morsel" class="push-1-8">Magic Morsel</label>
+                <input min="0" name="magic-morsel" id="magic-morsel" type="number" placeholder="Please input desired amount">
               </div>
               <div class="unit xs-1 s-1 m-1-4 l-1-4 push gutter-half">
-                <label for="chefs-special" class="push-1-8" placeholder="Input desired amount">Chef's Special</label>
-                <input min="0" name="chefs-special" id="chefs-special" type="number">
+                <label for="chefs-special" class="push-1-8">Chef's Special</label>
+                <input min="0" name="chefs-special" id="chefs-special" type="number" placeholder="Please input desired amount">
               </div>
               <div class="unit xs-1 text-center">
                 <button class="btn mega" type="submit">Send</button>
